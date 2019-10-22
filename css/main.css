@@ -41,3 +41,21 @@ html {
   z-index: 3;
   transform: translate(384px, 100px) rotate(33deg);
 }
+
+.polaroid:hover:nth-child(1) {
+  z-index: 100;
+  transform: rotate(0) translate(192px, 100px);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, .9);
+}
+
+.polaroid:hover:nth-child(2) {
+  z-index: 100;
+  transform: rotate(0) translate(288px, 150px);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, .9);
+}
+
+.polaroid:hover:nth-child(3) {
+  z-index: 100;
+  transform: rotate(0) translate(384px, 100px);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, .9);
+}
